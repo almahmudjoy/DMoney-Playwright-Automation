@@ -1,0 +1,76 @@
+Autommation on Playwright
+Batch No: 19
+
+Topic Name: Playwright
+
+Description:
+Automate the following end-to-end user journey using Playwright.
+
+Application URL:
+
+https://dmoneyportal.roadtocareer.net
+
+Assignment Scenario
+Create an automated Playwright test that completes the following workflow:
+
+Open the DMoney Portal.
+Navigate to the Sign Up page.
+Register a new user with the Agent role.
+Log in as Admin using:
+Email: admin@dmoney.com
+Password: 1234
+Locate the newly created Agent and activate the account.
+Log out from the Admin account.
+Log in using the System account:
+Email: system@dmoney.com
+Password: 1234
+Deposit 2000 Tk into the newly created Agent account.
+Log out from the System account.
+Log in using the newly created Agent account.
+Verify that the Agent balance is 2000 Tk.
+Deposit 500 Tk from the Agent account to any existing Customer.
+Verify that the transaction is completed successfully.
+Log out from the Agent account.
+Reset the Agent account password.
+Verify that the Agent cannot log in using the old password.
+Log in using the newly reset password.
+Navigate to the Self Statement section.
+Extract all data available in the Self Statement table.
+Save the extracted data into a CSV file using the following naming convention:
+self_statement_todays_date.csv
+
+Example:
+
+self_statement_2026-10-02.csv
+
+Required Test Coverage
+Your automation should cover at least the following validations:
+
+Verify Agent registration is successful.
+Verify the newly created Agent is initially inactive.
+Verify Admin login is successful.
+Verify the newly created Agent appears in the Admin user list.
+Verify Admin can activate the Agent.
+Verify the Agent remains active after page reload.
+Verify System login is successful.
+Verify System can deposit 2000 Tk to the Agent.
+Verify the System deposit creates the correct transaction record.
+Verify the Agent can log in after activation.
+Verify the Agent balance is exactly 2000 Tk.
+Verify the Agent can deposit 500 Tk to an existing Customer.
+Verify the Agent balance is updated correctly after the transaction.
+Verify the Customer deposit appears in the Agent's Self Statement.
+Verify Agent logout works successfully.
+Verify Agent password reset works successfully.
+Verify login with the old password fails after password reset.
+Verify login with the new password succeeds.
+Verify the Self Statement contains the expected transaction data.
+Verify the Self Statement data is successfully saved into the required CSV file.
+Submission Prodecure:
+
+Record the full automation in headed mode and upload the video in Readme
+Take screenshot of the generated output and upload to Readme.md as Regression Test Result
+Now make smoke suite group for only the positive test cases
+Take screenshot of the generated output and upload to Readme.md as SmokeTest Result
+Keep the necessary file and folders into gitignore and organize the readme file properly
+Submit the repo URL

@@ -1,0 +1,22 @@
+node_modules/
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+playwright/.auth/
+auth.json
+.env
+.local-state/
+
+# Keep assignment CSV output
+output/*
+!output/
+!output/self_statement_*.csv
+
+# Ignore other generated CSV files
+*.csv
+!output/self_statement_*.csv
+
+# Keep assignment evidence videos
+*.webm
+!docs/evidence/*.webm
