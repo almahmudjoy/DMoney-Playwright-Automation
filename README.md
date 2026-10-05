@@ -128,13 +128,20 @@ Last successful extracted statement:
 
 The passing regression and smoke evidence below was captured on 2026-10-05.
 
-### Regression Test Result
-
-![Passing regression Playwright report](docs/evidence/regression-test-result.png)
-
-### Smoke Test Result
-
-![Passing positive-only smoke Playwright report](docs/evidence/smoke-test-result.png)
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <strong>Regression Test Result</strong><br>
+        <img src="docs/evidence/regression-test-result.png" alt="Passing regression Playwright report" width="420" />
+      </td>
+      <td align="center">
+        <strong>Smoke Test Result</strong><br>
+        <img src="docs/evidence/smoke-test-result.png" alt="Passing positive-only smoke Playwright report" width="420" />
+      </td>
+    </tr>
+  </table>
+</div>
 
 ### Headed Run Video
 
