@@ -133,11 +133,11 @@ The passing regression and smoke evidence below was captured on 2026-10-05.
     <tr>
       <td align="center">
         <strong>Regression Test Result</strong><br>
-        <img src="docs/evidence/regression-test-result.png" alt="Passing regression Playwright report" width="420" />
+        <img src="docs/evidence/regression-test-result.png" alt="Passing regression Playwright report" width="540" />
       </td>
       <td align="center">
         <strong>Smoke Test Result</strong><br>
-        <img src="docs/evidence/smoke-test-result.png" alt="Passing positive-only smoke Playwright report" width="420" />
+        <img src="docs/evidence/smoke-test-result.png" alt="Passing positive-only smoke Playwright report" width="540" />
       </td>
     </tr>
   </table>
