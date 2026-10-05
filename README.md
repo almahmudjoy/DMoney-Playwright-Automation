@@ -143,8 +143,6 @@ The passing regression and smoke evidence below was captured on 2026-10-05.
 
 The selected evidence is kept in `docs/evidence/`. Temporary Playwright reports and run artifacts are intentionally ignored.
 
-An Oct 6 verification attempt was blocked by Gmail OTP retrieval with HTTP 401 because the local environment had an expired `GMAIL_ACCESS_TOKEN` and no valid Gmail OAuth refresh credentials configured. Re-enter the refresh credentials in `.env` before recording fresh runs.
-
 ## Notes
 
 - The live portal requires a mailbox-controlled Gmail address for agent login OTPs and password reset URLs.
